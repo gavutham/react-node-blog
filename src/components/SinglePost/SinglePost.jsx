@@ -56,7 +56,7 @@ const SinglePost = () => {
 					src={
 						post.photo
 							? PF + encodeURIComponent(post.photo)
-							: "http://localhost:3000/assets/noimg.png"
+							: "https://react-node-blog-site.netlify.app/assets/noimg.png"
 					}
 					alt=""
 					className="singlePostImg"

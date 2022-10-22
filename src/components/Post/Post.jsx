@@ -9,7 +9,7 @@ const Post = ({ post }) => {
 				src={
 					post.photo
 						? PF + post.photo
-						: "http://localhost:3000/assets/noimg.png"
+						: "https://react-node-blog-site.netlify.app/assets/noimg.png"
 				}
 				alt="post-img"
 				className="postImg"

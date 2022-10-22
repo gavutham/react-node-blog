@@ -59,7 +59,7 @@ const Settings = () => {
 									? URL.createObjectURL(file)
 									: user.profilePic
 									? PF + user.profilePic
-									: "http://localhost:3000/assets/nouser.png"
+									: "https://react-node-blog-site.netlify.app/assets/nouser.png"
 							}
 							alt=""
 						/>
