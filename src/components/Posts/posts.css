@@ -1,0 +1,13 @@
+.posts {
+	flex: 9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+	.posts {
+		margin: 0;
+	}
+}
