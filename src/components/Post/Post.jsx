@@ -2,7 +2,7 @@ import "./post.css";
 import { Link } from "react-router-dom";
 
 const Post = ({ post }) => {
-	const PF = "https://react-node-blogapi.herokuapp.com/images/";
+	const PF = "https://blogapi-yh0r.onrender.com/images/";
 	return (
 		<div className="post">
 			<img

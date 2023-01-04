@@ -11,7 +11,7 @@ const Settings = () => {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const [success, setSuccess] = useState(false);
-	const PF = "https://react-node-blogapi.herokuapp.com/images/";
+	const PF = "https://blogapi-yh0r.onrender.com/images/";
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();

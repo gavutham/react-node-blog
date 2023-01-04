@@ -5,7 +5,7 @@ import { Context } from "../../context/Context";
 
 const Topbar = () => {
 	const { user, dispatch } = useContext(Context);
-	const PF = "https://react-node-blogapi.herokuapp.com/images/";
+	const PF = "https://blogapi-yh0r.onrender.com/images/";
 
 	const handleLogout = () => {
 		dispatch({ type: "LOGOUT" });

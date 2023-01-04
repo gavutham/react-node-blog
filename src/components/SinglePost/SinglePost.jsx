@@ -10,7 +10,7 @@ const SinglePost = () => {
 	const location = useLocation();
 	const id = location.pathname.split("/")[2];
 	const [post, setPost] = useState({});
-	const PF = "https://react-node-blogapi.herokuapp.com/images/";
+	const PF = "https://blogapi-yh0r.onrender.com/images/";
 	const { user } = useContext(Context);
 	const [title, setTitle] = useState("");
 	const [desc, setDesc] = useState("");
