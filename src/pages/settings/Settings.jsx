@@ -1,8 +1,8 @@
 import "./settings.css";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import { useContext, useState } from "react";
-import { Context } from "../../context/Context";
 import api from "../../apiRequest";
+import { Context } from "../../context/Context";
 
 const Settings = () => {
 	const { user, dispatch } = useContext(Context);
